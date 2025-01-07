@@ -1,0 +1,32 @@
+.table {
+  margin: 50px auto;
+  border-spacing: 0;
+  width: 600px;
+  border-collapse: collapse;
+}
+.tableHeadRow {
+  background-color: rgb(48, 48, 48);
+  color: #fff;
+}
+.tableBlock {
+  padding: 5px 0;
+  text-align: center;
+  width: calc(100% / 3);
+  border: 1px solid #000;
+}
+.tableHeadBlock {
+  padding: 5px 0;
+  text-align: center;
+  width: calc(100% / 3);
+  border: 1px solid #000;
+}
+.tableBodyRow:nth-child(even) {
+  background-color: #bebebe;
+}
+.tableBlock:nth-child(3n + 1) {
+  padding-left: 60px;
+  text-align: left;
+}
+.tableBlock:nth-child(3n + 1)::first-letter {
+  text-transform: uppercase;
+}
